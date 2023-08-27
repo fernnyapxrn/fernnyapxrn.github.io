@@ -92,12 +92,18 @@ body {
     transition: background-color 0.3s, color 0.3s, transform 0.2s ease;
     box-sizing: border-box;
     transform: translateY(0);
-    
   }
   
   .MyContact:hover {
     background-color: white;
     color: black;
     transform: translateY(-5px);
+  }
+
+  .endform{
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding-top: 30px;
   }
 
