@@ -162,7 +162,7 @@ body {
     width: 100%;
   }
   
-  .progress-value1 {
+  .show-progress .progress-value1 {
     animation: load1 8s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
@@ -176,7 +176,7 @@ body {
     100% { width: 78%; }
   }
 
-  .progress-value2 {
+  .show-progress .progress-value2 {
     animation: load2 8s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;

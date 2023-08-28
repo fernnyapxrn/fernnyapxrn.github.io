@@ -6,6 +6,20 @@
 <link rel="stylesheet" href="style.css">
 <title>Areeyapon Chotising</title>
 
+<script>
+  window.addEventListener('scroll', function() {
+      const progressSections = document.querySelectorAll('.progresssec');
+      const triggerOffset = window.innerHeight * 0.8;
+
+      progressSections.forEach(section => {
+          const sectionTop = section.getBoundingClientRect().top;
+          if (sectionTop < triggerOffset) {
+              section.classList.add('show-progress');
+          }
+      });
+  });
+</script>
+
   </head>
 
 
