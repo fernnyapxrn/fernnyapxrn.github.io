@@ -70,7 +70,8 @@
   
   .Details strong {
     font-weight: bold;
-    color: rgb(255, 237, 237);
+    /* color: rgb(255, 237, 237); */
+    color: rgb(227, 143, 195);
   }
   
 
