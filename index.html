@@ -7,19 +7,20 @@
 <title>Areeyapon Chotising</title>
 
 <script>
-    window.addEventListener('scroll', function() {
-        const progressSections = document.querySelectorAll('.progresssec');
-        const bottomOfWindow = window.innerHeight + window.scrollY;
+  window.addEventListener('scroll', function() {
+      const progressSections = document.querySelectorAll('.progresssec');
+      const bottomThreshold = 100; // ค่าระยะห่างจากส่วนล่างสุดที่คุณต้องการ
 
-        progressSections.forEach(section => {
-            const sectionBottom = section.offsetTop + section.offsetHeight;
-            if (sectionBottom < bottomOfWindow) {
-                section.classList.add('show-progress');
-            } else {
-                section.classList.remove('show-progress');
-            }
-        });
-    });
+      progressSections.forEach(section => {
+          const sectionBottom = section.offsetTop + section.offsetHeight;
+          const bottomOfWindow = window.innerHeight + window.scrollY;
+          if (sectionBottom < bottomOfWindow + bottomThreshold) {
+              section.classList.add('show-progress');
+          } else {
+              section.classList.remove('show-progress');
+          }
+      });
+  });
 </script>
 
   </head>
