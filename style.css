@@ -222,3 +222,13 @@
 .progresssec.show-progress .progress-value2 {
     animation: load2 3s normal forwards;
 }
+
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.bouncing-text {
+  animation: bounce 1s ;
+}
