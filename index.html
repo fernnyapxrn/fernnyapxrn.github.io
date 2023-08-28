@@ -9,7 +9,7 @@
 <script>
   window.addEventListener('scroll', function() {
       const progressSections = document.querySelectorAll('.progresssec');
-      const bottomThreshold = 50; // ค่าระยะห่างจากส่วนล่างสุดที่คุณต้องการ
+      const bottomThreshold = 50;
 
       progressSections.forEach(section => {
           const sectionBottom = section.offsetTop + section.offsetHeight;
@@ -36,10 +36,9 @@
 
 
   <body>
-    <!-- Content container -->
+    <!-- Glass container -->
     <div class ="container">
 
-      <!-- Image and name container. Change to your picture here. -->
     <div class="image-container">
         <img src="https://i.pinimg.com/750x/03/e7/0c/03e70c4229537b6228e2baa1824b58be.jpg" alt="MyPhoto" >
     </div>
@@ -49,7 +48,7 @@
      <p><strong>See what I am up to here!</strong></p>
       </div>
 
-    <!-- Links section 1. Replace the # inside of the "" with your links. -->
+    <!-- Contact -->
     <div class="contact-container">
       <h2>Contact Me</h1>
       <a href="https://web.facebook.com/fernnyapxrnn/" class="MyContact" target="_blank">
@@ -72,6 +71,7 @@
     <div class="endform">
     <p> Thank you for visiting my site, hope we'll have the opportunity to exchange conversations</p></div>
 
+    <!-- progress -->
     <h3>My Progress now</h3>
 
     <div class = progresssec>
