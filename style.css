@@ -163,7 +163,6 @@ body {
   }
   
   .show-progress .progress-value1 {
-    animation: load1 8s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
     background: #fff;
@@ -177,7 +176,6 @@ body {
   }
 
   .show-progress .progress-value2 {
-    animation: load2 8s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
     background: #fff;
@@ -191,8 +189,26 @@ body {
   }
   
   .progresssec{
+
     font-size: 12px;
     font-family: Verdana, Tahoma, sans-serif;
     width: 80%;
     text-align: left;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
+
+  .progresssec.show-progress {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.progresssec.show-progress .progress-value1 {
+    animation: load1 3s normal forwards;
+}
+
+.progresssec.show-progress .progress-value2 {
+    animation: load2 3s normal forwards;
+}
