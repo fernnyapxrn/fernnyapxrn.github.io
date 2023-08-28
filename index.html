@@ -21,6 +21,15 @@
           }
       });
   });
+
+  setTimeout(function() {
+      const progressSections = document.querySelectorAll('.progresssec');
+
+      progressSections.forEach(section => {
+          section.classList.add('show-progress');
+      });
+  }, 500);
+
 </script>
 
   </head>
