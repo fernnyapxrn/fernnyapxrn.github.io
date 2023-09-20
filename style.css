@@ -182,7 +182,7 @@
   
   @keyframes load1 {
     0% { width: 0; }
-    100% { width: 78%; }
+    100% { width: 80%; }
   }
 
   .show-progress .progress-value2 {
@@ -195,8 +195,22 @@
 
   @keyframes load2 {
     0% { width: 0; }
-    100% { width: 58%; }
+    100% { width: 60%; }
   }
+
+  .show-progress .progress-value3 {
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 10px;
+    width: 0px;
+  }
+
+  @keyframes load3 {
+    0% { width: 0; }
+    100% { width: 40%; }
+  }
+  
   
   .progresssec{
 
@@ -221,6 +235,10 @@
 
 .progresssec.show-progress .progress-value2 {
     animation: load2 3s normal forwards;
+}
+
+.progresssec.show-progress .progress-value3 {
+  animation: load3 3s normal forwards;
 }
 
 
