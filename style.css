@@ -42,9 +42,9 @@
 
   }
 
-  .contact-container {
+  .contents-container {
     text-align: center;
-    margin-top: -20px;
+    margin-top: -10px;
   }
 
   .image-container {
@@ -73,7 +73,20 @@
     color: rgb(239, 159, 208);
   }
   
+  .MyPortfolio{
+    color: #fff;
+    padding: 10px 25px;
+    background: transparent;
+    transition: all 0.5s ease;
+    border-radius: 48px;
+    background-color: #fb71c9;
+    box-shadow: 0 0 5px #eb74e1;
+    text-decoration: none;
+  }
 
+  .MyPortfolio:hover {
+    box-shadow: 0 0 10px #ef97e8, 0 0 10px #ef97e8, 0 0 10px #fff inset;
+  }
 
   .MyContact {
     display: block;
@@ -195,7 +208,7 @@
 
   @keyframes load2 {
     0% { width: 0; }
-    100% { width: 60%; }
+    100% { width: 70%; }
   }
 
   .show-progress .progress-value3 {
@@ -208,7 +221,7 @@
 
   @keyframes load3 {
     0% { width: 0; }
-    100% { width: 40%; }
+    100% { width: 45%; }
   }
   
   
