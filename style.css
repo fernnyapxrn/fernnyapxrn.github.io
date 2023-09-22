@@ -44,7 +44,6 @@
 
   .contents-container {
     text-align: center;
-    margin-top: -10px;
   }
 
   .image-container {
@@ -87,6 +86,7 @@
   .MyPortfolio:hover {
     box-shadow: 0 0 10px #ef97e8, 0 0 10px #ef97e8, 0 0 10px #fff inset;
   }
+
 
   .MyContact {
     display: block;
