@@ -28,7 +28,7 @@
 
     .slide{
       display: flex;
-      animation: scrollText 15s infinite linear;
+      animation: scrollText 17s infinite linear;
     }
 
     .slide h1{
