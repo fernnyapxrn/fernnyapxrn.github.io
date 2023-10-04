@@ -6,6 +6,12 @@
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="images/favicon.io.png">
 
+<div class="slide-text">  
+  <div class="slide">
+  <h1>Areeyapon Chotising &nbsp; Areeyapon Chotising &nbsp; Areeyapon Chotising &nbsp; Areeyapon Chotising</h1>
+</div>
+</div>
+
 <title>Areeyapon Chotising</title>
 
 <script>
@@ -34,6 +40,15 @@
           section.classList.add('show-progress');
       });
   }, 500);
+
+  let elt = document.querySelectorAll('.slide-text > *')
+anime({
+  targets: elt,
+  translateX: '-100%',
+  duration: 12000,
+  easing: 'linear',
+  loop: true
+});
 
 </script>
 
