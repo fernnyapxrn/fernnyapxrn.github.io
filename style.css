@@ -3,12 +3,7 @@
     font-family: 'Montserrat', sans-serif;
       margin: 0;
       padding: 0;
-
       background: #efefef;
-      /* background: linear-gradient(300deg,#ffffff,#8a95c3,rgb(192, 126, 126)); */
-      background-size: 180% 180%;
-      animation: gradient-animation 5.5s ease infinite;
-      color: rgb(0, 0, 0);
       display: flex;
       align-items: center;
       justify-content: center;
